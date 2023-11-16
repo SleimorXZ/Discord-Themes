@@ -1,1 +1,91 @@
+/**
+ * @name BlackGX
+ * @author sleimor.
+ * @version 1
+ * @description Help me to make my themes even better! Join the discord server! Suggestions and bugs reports are welcome.
+ * @source https://github.com/L-Ratio/OperaGXTheme
+ * @invite Xn7UUQUHbN
+ * @BDEditor BlackGX Theme
+*/
+
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro:wght@100;300;400;500;700&display=swap');
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
+
+:root {
+  --background: url('https://i.imgur.com/Ge0Xtor.png');
+  --background-behind-appmount: 0,0,0,1;
+  --background-accent-color-1: 0,0,0,1;
+  --accent-color-1: 24,24,24;
+  --accent-color-2: 255,255,255;
+  --border-brightness: 1;
+  --dark-background-color: 21,21,21;
+  --darker-background-color: 20,20,20;
+  --wintitlebar-transparency: 0.7;
+  --header-transparency: 0.5;
+  --serverlist-transparency: 0.5;
+  --channels-transparency: 0.5;
+  --chat-transparency: 0.5;
+  --memberlist-transparency: 0.5;
+  --wintitlebar-background-blur: 45px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Kdam Thmor Pro;
+  --codeBlocksCustomFont: Kdam Thmor Pro;
+  --fullwhite-font: 250, 253, 255;
+  --normal-font: 201, 203, 206;
+  --normal-hover-font: 238,239,240;
+  --muted-font: 255,255,255;
+  --link-text: 3,185,255;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+ 
+ 
+    /* Better Hljs */
+  --backgroundCode: #1e2731;
+  --backgroundName: rgba(0, 0, 0, .2);
+ 
+    /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+
+ --customFont: 'gg sans', sans-serif;
+}
+
+/* Any custom CSS below here */
+
+
+
 
