@@ -1,0 +1,68 @@
+/**
+ * @name RedGX
+ * @author sleimor.
+ * @version 1
+ * @description Help me to make my themes even better! Join the discord server! Suggestions and bugs reports are welcome.
+ * @source https://github.com/SleimorXZ
+ * @invite https://discord.gg/mkZjAWPYMs
+ * @BDEditor RedGX Theme
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
+
+:root {
+  --background-image: url('https://images.wallpaperscraft.ru/image/single/chernyj_fon_krasnyj_tsvet_9844_1440x900.jpg');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: url('https://images.wallpaperscraft.ru/image/single/chernyj_fon_krasnyj_tsvet_9844_1440x900.jpg');
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 5px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://i.pinimg.com/474x/10/cb/ff/10cbff336a3ec3afa1aa2bb93d425804.jpg');
+  --home-button-size: 150%;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --overlay-brightness: 0.75;
+  --gradient-primary: 244,67,54;
+  --gradient-secondary: 0,0,0;
+  --link-colour: #00B8FF;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 244,67,54;
+  --tint-brightness: 0;
+  --font: Josefin Sans;
+  --window-padding: 20px;
+  --window-roundness: 40px;
+  --update-notice-1: none;
+  
+    /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+
+ --customFont: 'gg sans', sans-serif;
+}
+}
+
+/* Any custom CSS below here */
+
+
